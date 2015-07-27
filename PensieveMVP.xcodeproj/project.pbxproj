@@ -15,6 +15,7 @@
 		50340B031B39D19C00482CC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50340B021B39D19C00482CC1 /* Images.xcassets */; };
 		50340B061B39D19C00482CC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50340B041B39D19C00482CC1 /* LaunchScreen.xib */; };
 		50340B121B39D19D00482CC1 /* PensieveMVPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50340B111B39D19D00482CC1 /* PensieveMVPTests.m */; };
+		50340B241B39F08800482CC1 /* Memories.m in Sources */ = {isa = PBXBuildFile; fileRef = 50340B231B39F08800482CC1 /* Memories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		50340B0B1B39D19C00482CC1 /* PensieveMVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PensieveMVPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50340B101B39D19D00482CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50340B111B39D19D00482CC1 /* PensieveMVPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PensieveMVPTests.m; sourceTree = "<group>"; };
+		50340B221B39F08800482CC1 /* Memories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memories.h; sourceTree = "<group>"; };
+		50340B231B39F08800482CC1 /* Memories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memories.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +93,7 @@
 				50340AFF1B39D19C00482CC1 /* Main.storyboard */,
 				50340B021B39D19C00482CC1 /* Images.xcassets */,
 				50340B041B39D19C00482CC1 /* LaunchScreen.xib */,
-				50340AF91B39D19C00482CC1 /* PensieveMVP.xcdatamodeld */,
+				50340B1E1B39D52400482CC1 /* Data */,
 				50340AF21B39D19C00482CC1 /* Supporting Files */,
 			);
 			path = PensieveMVP;
@@ -120,6 +123,16 @@
 				50340B101B39D19D00482CC1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50340B1E1B39D52400482CC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				50340B221B39F08800482CC1 /* Memories.h */,
+				50340B231B39F08800482CC1 /* Memories.m */,
+				50340AF91B39D19C00482CC1 /* PensieveMVP.xcdatamodeld */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +239,7 @@
 				50340AFB1B39D19C00482CC1 /* PensieveMVP.xcdatamodeld in Sources */,
 				50340AFE1B39D19C00482CC1 /* ViewController.m in Sources */,
 				50340AF51B39D19C00482CC1 /* main.m in Sources */,
+				50340B241B39F08800482CC1 /* Memories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
